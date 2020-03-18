@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/pic1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:text="MENU MASJID"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        app:fontFamily="@font/aclonica" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:layout_marginLeft="7dp"
+        android:layout_gravity="center">
+
+<!--        <Button-->
+<!--            android:id="@+id/jamsholat"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:background="@drawable/choose"-->
+<!--            android:fontFamily="@font/archivo_black"-->
+<!--            android:text="Jam Sholat"-->
+
+<!--            />-->
+
+        <Button
+            android:fontFamily="@font/aclonica"
+            android:textSize="14sp"
+            android:id="@+id/jamsholat"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choose"
+            android:text="Jam Sholat "
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+
+            />
+        <Button
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:id="@+id/identitas"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choose"
+            android:text="Identitas Masjid "
+            android:layout_marginTop="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/marquee"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Marquee"
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:background="@drawable/choose"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/pengumuman"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Pengumuman "
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold"
+            android:background="@drawable/choose"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            />
+        <Button
+            android:id="@+id/tagline"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Tagline"
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:background="@drawable/choose"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/slideshow"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="SlideShow"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:fontFamily="@font/aclonica"
+            android:background="@drawable/choose"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

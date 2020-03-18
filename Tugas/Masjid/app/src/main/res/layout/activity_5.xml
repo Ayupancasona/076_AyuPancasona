@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic1"
+    tools:context=".Activity5">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="TAGLINE"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aclonica" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardElevation="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        app:cardCornerRadius="20dp">
+
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="356dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:text="Isi Tagline "
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                app:fontFamily="@font/aclonica" />
+
+            <TextView
+                android:id="@+id/isi_tagline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isi "
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:fontFamily="@font/aclonica" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Update Tagline"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:fontFamily="@font/aclonica" />
+
+
+        <EditText
+            android:id="@+id/edit_isi_tagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:inputType="textPersonName"
+            android:hint="Isi Tagline" />
+
+
+        <Button
+            android:id="@+id/btnSimpan5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:background="@drawable/edit"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
